@@ -1,0 +1,29 @@
+.section-corporate-customers {
+
+	background: url(../images/background-3.png) no-repeat;
+	background-position: left;
+
+	.row {
+
+		& > [class*='col-'] {
+
+			padding: 0;
+			
+			& > [class*='col-'] {
+
+				padding: 0;
+				
+			}
+
+		}
+
+		.div-top { 
+
+			margin-left: 139px;
+			background-color: red;
+
+		}
+
+	}
+
+}

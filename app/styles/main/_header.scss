@@ -1,0 +1,187 @@
+.header {
+
+	background-clip: border-box;
+	background-color: $base-bg;
+	background-size: auto auto;
+	background: url(../images/background.png) no-repeat;
+	display: block;
+	padding-top: 40px;
+	position: relative;
+	width: 100%;
+
+	.container{
+
+		.row {
+
+			& > [class*='col-'] {
+
+				padding: 0;
+
+			}
+
+			.header-contact {
+
+				@include align-items(baseline);
+				@include flex-direction(row);
+				@include flexbox;
+				@include justify-content(space-between);
+
+				.header-contact-item {
+
+					a {
+
+						border-radius: 0;
+						color: #33387c;
+						font-family: 'ProximaNova';
+						font-size: 20px;
+						font-stretch: normal;
+						font-style: normal;
+						font-weight: 700;
+						padding: 0;
+
+						span {
+
+							font-size: 26px;
+
+						}
+
+						&:hover {
+
+							background-color: inherit;
+
+						}
+
+					}
+
+					.header-contact-link {
+
+						border-radius: 0;
+						color: #33387c;
+						font-family: 'ProximaNova';
+						font-size: 16px;
+						padding: 0;
+						text-decoration: underline;
+
+						&:hover {
+
+							background-color: inherit;
+
+						}
+
+					}
+
+				}
+			
+
+			}
+
+			.order-button {
+
+				@include align-items(center);
+				@include flex-direction(row);
+				@include flexbox;
+				@include justify-content(flex-end);
+
+				.btn {
+
+					background-color: inherit;
+					border-radius: 0;
+					border: 4px solid #33387c;
+					color: #fff;
+					font-family: 'ProximaNova';
+					font-size: 18px;
+					font-stretch: normal;
+					font-style: normal;
+					font-weight: 700;
+					padding: 14px 19px 11px 16px;
+
+				}
+
+			}
+
+			.header-nav {
+
+				@include align-items(center);
+				@include flex-direction(row);
+				@include flexbox;
+				background: #33387c;
+
+				.nav_item {
+
+					.first-link {
+
+						border-bottom: 4px solid #33387c;
+						border-radius: 0;
+						color: white;
+						font-family: 'ProximaNova';
+						font-size: 16px;
+						font-stretch: normal;
+						font-style: normal;
+						font-weight: 400;
+						padding: 18px 25px 10px 30px !important;
+						text-decoration: underline;
+
+						&:hover {
+
+							background: #33387c;
+							border-bottom: 4px solid white;
+							color: white;
+							
+						}
+
+					}
+
+					.last-link {
+
+						border-bottom: 4px solid #33387c;
+						border-radius: 0;
+						color: white;
+						font-family: 'ProximaNova';
+						font-size: 16px;
+						font-stretch: normal;
+						font-style: normal;
+						font-weight: 400;
+						padding: 18px 30px 10px 25px !important;
+						text-decoration: underline;
+
+						&:hover {
+
+							background: #33387c;
+							border-bottom: 4px solid white;
+							color: white;
+							
+						}
+
+					}
+
+					.nav_link {
+
+						border-bottom: 4px solid #33387c;
+						border-radius: 0;
+						color: white;
+						font-family: 'ProximaNova';
+						font-size: 16px;
+						font-stretch: normal;
+						font-style: normal;
+						font-weight: 400;
+						padding: 18px 22px 10px 22px !important;
+						text-decoration: underline;
+
+						
+						&:hover {
+
+							background: #33387c;
+							border-bottom: 4px solid white;
+							color: white;
+							
+						}
+
+					}
+
+				}
+			}
+			
+		}
+	}
+}
+

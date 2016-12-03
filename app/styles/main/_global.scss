@@ -1,0 +1,74 @@
+// Base (body-applied)
+// ------------------------------
+$base-color: #5560b0;
+$base-bg: #83857d;    
+
+*, *:before, *:after {
+
+  -webkit-box-sizing: border-box; /* Нужно для мобильного WebKit */
+  -moz-box-sizing: border-box; /* Нужно для Firefox */
+  box-sizing: border-box;
+
+}
+
+body {
+
+	font-family: 'ProximaNova';
+	font-size: 100%;
+	height: 100%;
+	overflow: visible;
+
+}
+
+.container {
+
+	max-width:1070px;
+	
+}
+
+img {
+
+	max-width: 100%;
+	height: auto !important;
+
+}
+
+a:hover {
+
+	text-decoration: none;
+	
+}
+
+a:focus {
+
+	text-decoration: none;
+
+}
+
+h1 {
+
+	color: #000;
+	font-family:'ProximaNova';
+	font-size: 34px;
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+
+}
+
+h3 {
+
+	color: #000;
+	font-family:'ProximaNova';
+	font-size: 34px;
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+	
+}
+
