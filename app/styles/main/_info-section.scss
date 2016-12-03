@@ -32,7 +32,7 @@
 
 					border: 4px solid #33387c;
 					height:100%;
-					padding: 36px 40px 33px 26px;					
+					padding: 30px 40px 33px 26px;					
 					width:100%;
 
 					p {
@@ -58,35 +58,69 @@
 				position: relative;
 				width: 70%;
 
-				.slick-slide {
-					
-					margin-top: 30px;
+				.Mycarusel {
 
-					p {
+					height: 100%;
 
-						color: #fff;
-						font-family:'ProximaNova';
-						font-size: 18px;
-						font-weight: 400;
-						margin: 0;
+					.slick-list,
+					.slick-track {
+
+						height: 100%;
 
 					}
 
-				}
+					.slider-div {
 
-				.slick-prev {
+						padding-left: 85px;
+						@include flex-direction(column);
+						@include flexbox;
+						@include justify-content(center);
+						height: 100%;
+						text-align: left;
 
-					top: 130px;
-					left: 20px;
-					z-index: 1;
-					
-				}
+					}
 
-				.slick-next {
+					.slick-slide {
+						
+						p {
 
-					top: 130px;
-					right: 20px;
-					z-index: 1;
+							color: #fff;
+							font-family:'ProximaNova';
+							font-size: 18px;
+							font-stretch: normal;
+							font-style: normal;
+							font-weight: 300;
+							margin: 0;
+							text-transform: uppercase;
+
+							span {
+
+								font-size: 34px;
+								font-stretch: normal;
+								font-style: normal;
+								font-weight: 700;
+
+							}
+
+						}
+
+					}
+
+					.slick-prev {
+
+						top: 130px;
+						left: 20px;
+						z-index: 1;
+						
+					}
+
+					.slick-next {
+
+						top: 130px;
+						right: 20px;
+						z-index: 1;
+
+					}
 
 				}
 

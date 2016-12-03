@@ -1,8 +1,8 @@
 .section-private-customers {
 
-	background: url(../images/background-2.png) no-repeat;
+	background: url(../images/background-2.png) repeat-y;
 	background-position: top right;
-	background-size: 66% 79%;
+	background-size: 66%;
 	
 	
 	.container {
@@ -60,6 +60,9 @@
 					@include flex-direction(row);
 					@include flexbox;
 					@include justify-content(flex-end);
+					-webkit-box-shadow: 10px -5px 30px -10px rgba(0, 0, 0, 0.5);
+					-moz-box-shadow:    10px -5px 30px -10px rgba(0, 0, 0, 0.5);
+					box-shadow: 		10px -5px 30px -10px rgba(0, 0, 0, 0.5);
 
 				}
 
@@ -107,8 +110,12 @@
 					@include flex-direction(row);
 					@include flexbox;
 					@include justify-content(flex-end);
+					-webkit-box-shadow: 6px 3px 15px -3px rgba(0, 0, 0, 0.5);
+					-moz-box-shadow:    6px 3px 15px -3px rgba(0, 0, 0, 0.5);
+					box-shadow:         6px 3px 15px -3px rgba(0, 0, 0, 0.5);
 
 				}
+
 			}
 
 		}

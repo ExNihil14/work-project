@@ -82,12 +82,23 @@
 
 			}
 
+			.image {
+
+				.img {
+
+					-webkit-box-shadow: 4px -3px 15px 0px rgba(0, 0, 0, 0.5);
+					-moz-box-shadow:    4px -3px 15px 0px rgba(0, 0, 0, 0.5);
+					box-shadow:         4px -3px 15px 0px rgba(0, 0, 0, 0.5);	
+
+				}
+
+			}
+
 		}
 
 		.div-under {
 
 			margin-left: 139px;
-
 
 			.servises-info {
 
@@ -101,6 +112,18 @@
 				padding-right: 20px;
 				padding-top: 20px;
 				text-align: right;
+
+			}
+
+			.image {
+
+				.img {
+
+					-webkit-box-shadow: 5px 0px 15px 0px rgba(0, 0, 0, 0.5);
+					-moz-box-shadow:    5px 0px 15px 0px rgba(0, 0, 0, 0.5);
+					box-shadow:         5px 0px 15px 0px rgba(0, 0, 0, 0.5);
+
+				}
 
 			}
 
