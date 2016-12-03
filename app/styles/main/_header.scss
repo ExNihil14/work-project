@@ -28,6 +28,8 @@
 
 				.header-contact-item {
 
+					text-align: right;
+
 					a {
 
 						border-radius: 0;
@@ -100,7 +102,22 @@
 			}
 
 			.navbar-collapse {
+
 				padding: 0;
+
+			}
+
+			.navbar-toggle:hover,
+			.navbar-toggle:focus {
+
+			    background-color: #ddd;
+
+			}
+
+			.navbar-toggle {
+
+			    border-color: #ddd;
+
 			}
 
 			.header-nav {
