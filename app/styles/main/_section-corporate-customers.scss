@@ -1,9 +1,30 @@
 .section-corporate-customers {
 
 	background: url(../images/background-3.png) no-repeat;
-	background-position: left;
+	background-position: top left;
+	background-size: 90%;
+
 
 	.row {
+
+		position: relative;
+
+		.img-responsive {
+
+			position: absolute;
+			right: 37px;
+			top: 235px;
+			width: 50%;
+
+			@media (min-width: 1361px) {
+
+				position: absolute;
+				right: 37px;
+				top: 140px;
+			
+			}
+
+		}
 
 		& > [class*='col-'] {
 
@@ -17,10 +38,71 @@
 
 		}
 
+		.corporate-customers {
+
+			border: 4px solid #33387c;
+			margin-top: 65px;
+			padding: 20px 0px 16px 26px !important;
+			width: 27%;
+			margin-left: 18%;
+					
+			span {
+
+				color: #000;
+				font-family:'ProximaNova';
+				font-size: 31px;
+				font-stretch: normal;
+				font-style: normal;
+				font-weight: 700;
+				margin: 0;
+				padding: 0;
+				text-transform: uppercase;
+
+			}
+
+		}
+
 		.div-top { 
+			
+			margin-left: 139px;
+			margin-top: 65px;
+
+			.servises-info {
+
+				background-color: #fff;
+				color: #000;
+				font-family:'ProximaNova';
+				font-size: 18px;
+				font-weight: 700;
+				height: 170px;
+				padding-left: 63px;
+				padding-right: 20px;
+				padding-top: 20px;
+				text-align: right;
+
+			}
+
+		}
+
+		.div-under {
 
 			margin-left: 139px;
-			background-color: red;
+
+
+			.servises-info {
+
+				background-color: #fff;
+				color: #000;
+				font-family:'ProximaNova';
+				font-size: 18px;
+				font-weight: 700;
+				height: 170px;
+				padding-left: 123px;
+				padding-right: 20px;
+				padding-top: 20px;
+				text-align: right;
+
+			}
 
 		}
 

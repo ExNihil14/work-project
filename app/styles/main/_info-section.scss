@@ -28,8 +28,6 @@
 				padding-top: 55px;
 				width: 30%;
 
-
-
 				.info {
 
 					border: 4px solid #33387c;
@@ -49,16 +47,48 @@
 
 				}
 
-
 			}
 
 			.div-right {
 
 				background-color: rgba(41, 139, 144, 0.5);
 				display: block;
+				height: 269px;
 				margin-top: 300px;
 				position: relative;
 				width: 70%;
+
+				.slick-slide {
+					
+					margin-top: 30px;
+
+					p {
+
+						color: #fff;
+						font-family:'ProximaNova';
+						font-size: 18px;
+						font-weight: 400;
+						margin: 0;
+
+					}
+
+				}
+
+				.slick-prev {
+
+					top: 130px;
+					left: 20px;
+					z-index: 1;
+					
+				}
+
+				.slick-next {
+
+					top: 130px;
+					right: 20px;
+					z-index: 1;
+
+				}
 
 			}
 
