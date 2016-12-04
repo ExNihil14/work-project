@@ -1,0 +1,164 @@
+.stock-section {
+
+	.container {
+
+		.row {
+
+			& > [class*='col-'] {
+
+				padding: 0;
+				
+				& > [class*='col-'] {
+
+					padding: 0;
+					
+				}
+
+			}
+
+			.Mycarusel3 {
+
+				.slick-prev {
+
+    				left: -40px;
+
+				}
+
+				.slick-next {
+
+    				right: -40px;
+
+				}
+
+				.slick-track {
+
+					margin-top: 56px;
+
+					& > [class*='col-'] {
+
+						padding: 0;
+					
+					}
+
+					.stock-slider {
+
+						position: relative;
+
+						.stock-info {
+
+							color: #000;
+							font-family: 'ProximaNova';
+							font-size: 18px;
+							font-stretch: normal;
+							font-style: normal;
+							font-weight: 400;
+							left: 1.1%;
+							position: absolute;
+							top: 58%;
+
+							.news-date {
+
+								color: #000;
+								font-family: 'ProximaNova';
+								font-size: 18px;
+								font-stretch: normal;
+								font-style: normal;
+								font-weight: 400;
+
+							}
+
+						}
+			
+						.div-stock {
+
+							border: 4px solid #33387c;
+							color: #33387c;
+							font-family: 'ProximaNova';
+							font-size: 16px;
+							font-stretch: normal;
+							font-style: normal;
+							font-weight: 400;
+							padding-left: 26px;
+							padding-top: 26px;
+							
+
+							p {
+
+								text-decoration: underline;
+
+							}
+
+							.stock-title {
+
+								color: #000;
+								font-family: 'ProximaNova';
+								font-size: 24px;
+								font-stretch: normal;
+								font-style: normal;
+								font-weight: 700;
+								text-decoration: none;
+
+							}
+
+
+						}
+
+						.div-news {
+
+							padding-top: 30px;
+							color: #33387c;
+							font-family: 'ProximaNova';
+							font-size: 16px;
+							font-stretch: normal;
+							font-style: normal;
+							font-weight: 400;
+							@include align-items(flex-start);
+							@include flex-direction(column);
+							@include flexbox;
+							@include justify-content(space-between);
+							flex: 1;
+
+
+							p {
+								
+								text-decoration: underline;
+								
+							}
+
+							.news-title {
+
+								color: #000;
+								font-family: 'ProximaNova';
+								font-size: 24px;
+								font-stretch: normal;
+								font-style: normal;
+								font-weight: 700;
+								text-decoration: none;
+
+							}
+
+							.news-date {
+
+								color: #000;
+								font-family: 'ProximaNova';
+								font-size: 18px;
+								font-stretch: normal;
+								font-style: normal;
+								font-weight: 400;
+								text-decoration: none;
+
+							}
+
+						}
+
+					}
+
+				}
+			
+			}
+
+		}
+			
+	}
+
+}
