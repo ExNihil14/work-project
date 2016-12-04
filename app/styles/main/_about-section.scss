@@ -1,0 +1,170 @@
+.about-section {
+
+    background: url('../images/background-5.png') no-repeat;
+	background-size: 100%;
+
+	.container {
+
+		height: 100%;
+
+		.row {
+
+            background: url('../images/(Path).png') no-repeat;
+	        background-size: cover;
+	        height: 100%;
+
+	    	.div-left {
+
+				color: #fff;
+				font-family: 'ProximaNova';
+				font-size: 18px;
+				font-stretch: normal;
+				font-style: normal;
+				font-weight: 400;
+				padding-left: 30px;
+				padding-top:70px;
+
+
+	    		.About-company {
+
+					color: #fff;
+					font-family:'ProximaNova';
+					font-size: 34px;
+					font-stretch: normal;
+					font-style: normal;
+					font-weight: 700;
+					margin-bottom: 70px;
+					text-transform: uppercase;
+
+	    		}
+
+	    		span {
+
+					color: #fff;
+					font-family:'ProximaNova';
+					font-size: 24px;
+					font-stretch: normal;
+					font-style: normal;
+					font-weight: 300;
+					text-transform: uppercase;
+
+	    		}
+
+	    	} 
+
+	    	.div-right {
+
+				color: #fff;
+				font-family: 'ProximaNova';
+				font-size: 18px;
+				font-stretch: normal;
+				font-style: normal;
+				font-weight: 400;
+				padding-right: 95px;
+				padding-top: 70px;
+
+	    	} 
+
+	    	.div-under {
+
+	    		margin-top: 90px;
+				position: relative;
+
+	    		.img-line {
+
+					margin-left: 15px;
+					margin-top: 28px;
+
+	    		}
+
+				.Group-1,
+				.Group-2,
+				.Group-3,
+				.Group-4,
+				.Group-5 {
+
+					display: inline-block;
+
+	    		}
+
+				.Group-1 {
+
+					position: absolute;
+					top: 0;
+					left: 19%;
+
+				}
+
+				.Group-2 {
+
+					position: absolute;
+					top: 0;
+					left: 35%;
+	    			
+				}
+
+				.Group-3 {
+
+					position: absolute;
+					top: 0;
+					left: 51.2%;
+	    			
+				}
+
+				.Group-4 {
+
+					position: absolute;
+					top: 0;
+					left: 67.2%;
+					
+				}
+
+				.Group-5 {
+
+					position: absolute;
+					top: 0;
+					left: 83.6%;
+					
+				}
+
+				.first-div {
+
+					color: #fff;
+					font-family: 'ProximaNova';
+					font-size: 24px;
+					font-stretch: normal;
+					font-style: normal;
+					font-weight: 300;
+					text-transform: uppercase;
+					margin-top: 50px;
+					margin-bottom: 52px;
+
+
+				}
+
+				.second-div,
+				.third-div,
+				.fourth-div,
+				.fifth-div,
+				.sixth-div {
+
+					color: #fff;
+					font-family:'ProximaNova';
+					font-size: 16px;
+					font-stretch: normal;
+					font-style: normal;
+					font-weight: 700;
+					margin-top: 54px;
+					margin-bottom: 62px;
+
+				}
+
+
+
+	    	} 
+
+		}
+
+	}
+
+}
