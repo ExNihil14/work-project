@@ -1,0 +1,55 @@
+.footer {
+
+	background-color: #d3d3de;
+
+	.container {
+
+		.row {
+			
+			background-color: #c2c2d3;
+			padding: 20px 30px 0 30px;
+
+			& > [class*='col-'] {
+
+			padding: 0;
+			
+			}
+
+			.footer-div-left {
+
+				text-align: left;
+
+				p {
+
+					color: #33387c;
+					font-family: 'ProximaNova';
+					font-size: 16px;
+					font-stretch: normal;
+					font-style: normal;
+					font-weight: 400;
+
+				}
+
+			}
+
+			.footer-div-right {
+
+				text-align: right;
+
+				p {
+
+					font-size: 16px;
+					font-stretch: normal;
+					font-style: normal;
+					font-weight: 400;
+					text-decoration: underline;
+
+				}
+
+			}
+
+		}
+			
+	}
+
+}

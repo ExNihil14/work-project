@@ -1,0 +1,131 @@
+.section-address {
+
+	background-color: #eaeaf2;
+	margin-bottom: 0;
+
+	.container {
+
+		.row {
+
+			background-color: #d7d7e6;
+			padding-top: 36px;
+
+			& > [class*='col-'] {
+
+				padding: 0;
+				
+				& > [class*='col-'] {
+
+					padding: 0;
+					
+				}
+
+		    }
+
+		    .nav {
+
+				padding-left: 30px;
+				padding-right: 30px;
+
+		    	.section-contact-item {
+
+					margin-right: 10%;
+					text-align: left;
+					width: 20%;
+
+		    		p {
+
+						color: #2e3180;
+						font-family: 'ProximaNova';
+						font-size: 16px;
+						font-stretch: normal;
+						font-style: normal;
+						font-weight: 300;
+						
+					}
+
+					a {
+
+						padding-left: 0;
+						padding-right: 0;
+
+						span {
+
+							color: #2e3180;
+							font-family: 'ProximaNova';
+							font-size: 16px;
+							font-stretch: normal;
+							font-style: normal;
+							font-weight: 300;
+							text-decoration: underline;
+
+						}
+
+						&:hover {
+
+							background-color: inherit;
+
+						}
+
+					}
+
+				}
+
+				.section-contact-info {	
+
+					margin-left: 21%;
+					text-align: right;
+
+					.section-contact-phone {
+
+						color: #33387c;
+						font-family: 'ProximaNova';
+						font-size: 20px;
+						font-stretch: normal;
+						font-style: normal;
+						font-weight: 700;
+						padding: 0;
+						
+						span {
+
+							font-size: 26px;
+
+						}
+
+						&:hover {
+
+							background-color: inherit;
+
+						}
+
+					}
+
+					.section-contact-link {
+
+						color: #33387c;
+						font-family: 'ProximaNova';
+						font-size: 16px;
+						font-stretch: normal;
+						font-style: normal;
+						font-weight: 400;
+						margin-top: 25px;
+						padding: 0;
+						text-decoration: underline;
+
+						&:hover {
+
+							background-color: inherit;
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}	
+
+	}
+
+}

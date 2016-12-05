@@ -1,12 +1,198 @@
 .form-section {
 
+	background-color: #eaeaf2;
+
 	.container {
 
 		.row {
-			
 
-		}
-			
+			& > [class*='col-'] {
+
+				padding: 0;
+				
+				& > [class*='col-'] {
+
+					padding: 0;
+					
+				}
+
+			}
+
+			form {
+
+				-moz-box-shadow:    4px -3px 15px 0px rgba(0, 0, 0, 0.5);
+				-webkit-box-shadow: 4px -3px 15px 0px rgba(0, 0, 0, 0.5);
+				background-color: #fff;				
+				box-shadow:         4px -3px 15px 0px rgba(0, 0, 0, 0.5);
+				height: 463px;
+				padding-left: 15px;
+				padding-top: 60px;
+				
+				.div-title {
+
+					margin-bottom: 30px;
+
+					span {
+
+						color: #000;
+						font-family:'ProximaNova';
+						font-size: 31px;
+						font-stretch: normal;
+						font-style: normal;
+						font-weight: 700;
+						margin: 0;
+						padding: 0;
+						text-transform: uppercase;
+
+					}
+
+				}
+
+				.div-space {
+					height: 30%;
+				}
+
+				.form-control {
+
+					border: 2px solid #8fa1b7;
+
+				}
+				textarea {
+
+					height: 182px;
+					max-width: 100%;
+					max-height: 182px;
+
+				}
+
+				.div-send {
+
+					text-align: right;
+
+					p {
+
+						color: #2e3180;
+						font-family:'ProximaNova';
+						font-size: 16px;
+						font-stretch: normal;
+						font-style: normal;
+						font-weight: 700;
+
+					}
+
+				}
+
+				.div-button {
+
+					position: relative;
+
+					.btn-default {
+
+						position: absolute;
+    					bottom: -33px;
+    					background-color: #2e3180;
+
+    					&:hover {
+
+    						background-color: #2e3180;
+
+    					}
+
+					}
+				}
+
+			}
+
+			.section-nav {
+
+				background: #eaeaf2;
+				display: table; 
+				width: 100%;
+
+				.nav_item {
+
+					display: table-cell; 
+					vertical-align: middle;
+
+					.first-link {
+
+						border-bottom: 4px solid #eaeaf2;
+						border-radius: 0;
+						color: #2e3180;
+						font-family: 'ProximaNova';
+						font-size: 16px;
+						font-stretch: normal;
+						font-style: normal;
+						font-weight: 400;
+						padding: 18px 35px 10px 30px !important;
+						text-decoration: underline;
+
+						&:hover {
+
+							background: #eaeaf2;
+							border-bottom: 4px solid #2e3180;
+							color: #2e3180;
+							text-decoration: none;
+							
+						}
+
+					}
+
+					.last-link {
+
+						border-bottom: 4px solid #eaeaf2;
+						border-radius: 0;
+						color: #2e3180;
+						font-family: 'ProximaNova';
+						font-size: 16px;
+						font-stretch: normal;
+						font-style: normal;
+						font-weight: 400;
+						padding: 18px 36px 10px 25px !important;
+						text-decoration: underline;
+
+						&:hover {
+
+							background: #eaeaf2;
+							border-bottom: 4px solid #2e3180;
+							color: #2e3180;
+							text-decoration: none;
+							
+						}
+
+					}
+
+					.nav_link {
+
+						border-bottom: 4px solid #eaeaf2;
+						border-radius: 0;
+						color: #2e3180;
+						font-family: 'ProximaNova';
+						font-size: 16px;
+						font-stretch: normal;
+						font-style: normal;
+						font-weight: 400;
+						padding: 18px 22px 10px 22px !important;
+						text-decoration: underline;
+
+						
+						&:hover {
+
+							background: #eaeaf2;
+							border-bottom: 4px solid #2e3180;
+							color: #2e3180;
+							text-decoration: none;
+							
+						}
+
+					}
+
+				}
+
+			}
+
+		}	
+
 	}
 
 }

@@ -26,7 +26,7 @@
 
 			.div-contact {
 
-				margin-top: 20px;
+				margin-top: 15px;
 
 				.header-contact {
 
@@ -70,6 +70,9 @@
 							color: #33387c;
 							font-family: 'ProximaNova';
 							font-size: 16px;
+							font-stretch: normal;
+							font-style: normal;
+							font-weight: 400;
 							padding: 0;
 							text-decoration: underline;
 
@@ -134,12 +137,14 @@
 
 			.header-nav {
 
-				@include align-items(center);
-				@include flex-direction(row);
-				@include flexbox;
 				background: #33387c;
+				display: table; 
+				width: 100%;
 
 				.nav_item {
+
+					display: table-cell; 
+					vertical-align: middle;
 
 					.first-link {
 
@@ -157,7 +162,7 @@
 						&:hover {
 
 							background: #33387c;
-							border-bottom: 4px solid white;
+							border-bottom: 4px solid #fff;
 							color: #fff;
 							text-decoration: none;
 							
@@ -181,7 +186,7 @@
 						&:hover {
 
 							background: #33387c;
-							border-bottom: 4px solid white;
+							border-bottom: 4px solid #fff;
 							color: #fff;
 							text-decoration: none;
 							
@@ -193,7 +198,7 @@
 
 						border-bottom: 4px solid #33387c;
 						border-radius: 0;
-						color: white;
+						color: #fff;
 						font-family: 'ProximaNova';
 						font-size: 16px;
 						font-stretch: normal;
@@ -206,8 +211,8 @@
 						&:hover {
 
 							background: #33387c;
-							border-bottom: 4px solid white;
-							color: white;
+							border-bottom: 4px solid #fff;
+							color: #fff;
 							text-decoration: none;
 							
 						}
