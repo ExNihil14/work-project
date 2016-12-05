@@ -4,6 +4,16 @@
 	background-position: top left;
 	background-size: 89.8%;
 
+	@media (min-width: 992px) and (max-width: 1024px) {
+
+		background: url(../images/background-3.png) no-repeat;
+		background-position: top left;
+		background-size: 98.7%;
+							
+	}
+
+
+
 	@media (min-width: 1361px) {
 
 		background-size: 77.6%;
@@ -19,9 +29,18 @@
 		.img-responsive {
 
 			position: absolute;
-			right: 2.95%;
+			right: 3.35%;
 			top: 31.5%;
 			width: 50%;
+
+			@media (min-width: 992px) and (max-width: 1024px) {
+
+				position: absolute;
+    			right: 0.6%;
+    			top: 31.5%;
+    			width: 48%;
+									
+			}
 
 			@media (min-width: 1361px) {
 
@@ -73,6 +92,12 @@
 				padding: 0;
 				text-transform: uppercase;
 
+				@media (min-width: 992px) and (max-width: 1024px) {
+
+					font-size: 22px;
+										
+				}
+
 			}
 
 		}
@@ -81,6 +106,12 @@
 			
 			margin-left: 130px;
 			margin-top: 65px;
+
+			@media (min-width: 992px) and (max-width: 1024px) {
+
+				margin-left: 10%;
+							
+			}
 
 			@media (min-width: 1361px) {
 
@@ -127,6 +158,12 @@
 
 			margin-left: 130px;
 
+			@media (min-width: 992px) and (max-width: 1024px){
+
+				margin-left: 10%;
+							
+			}
+
 			@media (min-width: 1361px) {
 
 				margin-left: 22%;
@@ -145,6 +182,12 @@
 				padding-right: 20px;
 				padding-top: 20px;
 				text-align: right;
+
+				@media (min-width: 992px) and (max-width: 1024px){
+
+					padding-left: 75px;
+										
+				}
 
 				@media (min-width: 1361px) {
 

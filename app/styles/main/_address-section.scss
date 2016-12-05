@@ -73,8 +73,16 @@
 
 				.section-contact-info {	
 
-					margin-left: 21%;
+					margin-left: 20%;
 					text-align: right;
+
+					@media (min-width: 992px) and (max-width: 1024px) {
+
+						margin-left: 19%;
+							
+					}
+
+
 
 					.section-contact-phone {
 

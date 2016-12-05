@@ -4,6 +4,14 @@
 	background-position: top right;
 	background-size: 66%;
 
+	@media (min-width: 992px) and (max-width: 1024px) {
+
+		background: url(../images/background-2.png) no-repeat;
+		background-position: top right;
+		background-size: 69.5%;
+							
+	}
+
 	@media (min-width: 1361px) {
 
 		background: url(../images/background-2.png) no-repeat;
@@ -33,6 +41,14 @@
 
 				width: 30%;
 				padding: 28px 79px 0 30px;
+
+				@media (min-width: 992px) and (max-width: 1024px) {
+
+					padding: 28px 65px 0 30px;
+								
+				}
+
+				
 
 				p {
 
@@ -95,6 +111,12 @@
 						margin: 0;
 						padding: 0;
 						text-transform: uppercase;
+
+						@media (min-width: 992px) and (max-width: 1024px) {
+
+							font-size: 28px;
+												
+						}
 
 					}
 
