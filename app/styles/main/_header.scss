@@ -18,61 +18,73 @@
 
 			}
 
-			.header-contact {
+			.div-logo {
 
-				@include align-items(baseline);
-				@include flex-direction(row);
-				@include flexbox;
-				@include justify-content(space-between);
+				margin-bottom: 25px;
+				
+			}
 
-				.header-contact-item {
+			.div-contact {
 
-					text-align: right;
+				margin-top: 20px;
 
-					a {
+				.header-contact {
 
-						border-radius: 0;
-						color: #33387c;
-						font-family: 'ProximaNova';
-						font-size: 20px;
-						font-stretch: normal;
-						font-style: normal;
-						font-weight: 700;
-						padding: 0;
+					@include align-items(baseline);
+					@include flex-direction(row);
+					@include flexbox;
+					@include justify-content(space-between);
 
-						span {
+					.header-contact-item {
 
-							font-size: 26px;
+						text-align: right;
+
+						a {
+
+							border-radius: 0;
+							color: #33387c;
+							font-family: 'ProximaNova';
+							font-size: 20px;
+							font-stretch: normal;
+							font-style: normal;
+							font-weight: 700;
+							padding: 0;
+
+							span {
+
+								font-size: 26px;
+
+							}
+
+							&:hover {
+
+								background-color: inherit;
+
+							}
 
 						}
 
-						&:hover {
+						.header-contact-link {
 
-							background-color: inherit;
+							border-radius: 0;
+							color: #33387c;
+							font-family: 'ProximaNova';
+							font-size: 16px;
+							padding: 0;
+							text-decoration: underline;
+
+							&:hover {
+
+								background-color: inherit;
+
+							}
 
 						}
 
 					}
-
-					.header-contact-link {
-
-						border-radius: 0;
-						color: #33387c;
-						font-family: 'ProximaNova';
-						font-size: 16px;
-						padding: 0;
-						text-decoration: underline;
-
-						&:hover {
-
-							background-color: inherit;
-
-						}
-
-					}
+				
 
 				}
-			
 
 			}
 
@@ -82,6 +94,7 @@
 				@include flex-direction(row);
 				@include flexbox;
 				@include justify-content(flex-end);
+				margin-top: 20px;
 
 				.btn {
 
@@ -94,7 +107,7 @@
 					font-stretch: normal;
 					font-style: normal;
 					font-weight: 700;
-					padding: 14px 19px 11px 16px;
+					padding: 8px 22px 8px 20px;
 
 				}
 
