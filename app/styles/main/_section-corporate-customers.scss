@@ -4,6 +4,13 @@
 	background-position: top left;
 	background-size: 89.8%;
 
+	@media (min-width: 1361px) {
+
+		background-size: 77.6%;
+		height: 932px;
+			
+	}
+
 
 	.row {
 
@@ -12,15 +19,16 @@
 		.img-responsive {
 
 			position: absolute;
-			right: 37px;
-			top: 235px;
+			right: 2.95%;
+			top: 31.5%;
 			width: 50%;
 
 			@media (min-width: 1361px) {
 
 				position: absolute;
-				right: 37px;
-				top: 140px;
+				right: 13.3%;
+				top: 31.4%;
+				width: auto;
 			
 			}
 
@@ -41,10 +49,17 @@
 		.corporate-customers {
 
 			border: 4px solid #33387c;
-			margin-left: 18%;
+			margin-left: 18.5%;
 			margin-top: 65px;
 			padding: 20px 0px 16px 26px !important;
 			width: 27%;
+
+			@media (min-width: 1361px) {
+
+				margin-left: 4%;
+				width: 19%;
+			
+			}
 					
 			span {
 
@@ -64,8 +79,14 @@
 
 		.div-top { 
 			
-			margin-left: 139px;
+			margin-left: 130px;
 			margin-top: 65px;
+
+			@media (min-width: 1361px) {
+
+				margin-left: 22%;
+							
+			}
 
 			.servises-info {
 
@@ -75,10 +96,16 @@
 				font-size: 18px;
 				font-weight: 700;
 				height: 170px;
-				padding-left: 63px;
+				padding-left: 67px;
 				padding-right: 20px;
 				padding-top: 20px;
 				text-align: right;
+
+				@media (min-width: 1361px) {
+
+					width: 41%;
+							
+				}
 
 			}
 
@@ -98,7 +125,13 @@
 
 		.div-under {
 
-			margin-left: 139px;
+			margin-left: 130px;
+
+			@media (min-width: 1361px) {
+
+				margin-left: 22%;
+							
+			}
 
 			.servises-info {
 
@@ -108,10 +141,16 @@
 				font-size: 18px;
 				font-weight: 700;
 				height: 170px;
-				padding-left: 123px;
+				padding-left: 127px;
 				padding-right: 20px;
 				padding-top: 20px;
 				text-align: right;
+
+				@media (min-width: 1361px) {
+
+					width: 41%;
+							
+				}
 
 			}
 

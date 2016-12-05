@@ -3,6 +3,14 @@
 	background: url(../images/background-2.png) repeat-y;
 	background-position: top right;
 	background-size: 66%;
+
+	@media (min-width: 1361px) {
+
+		background: url(../images/background-2.png) no-repeat;
+		background-position: top right;
+		background-size: 61%;
+			
+	}
 	
 	
 	.container {
