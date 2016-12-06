@@ -58,6 +58,12 @@
 							position: absolute;
 							top: 69%;
 
+							@media (min-width: 992px) and (max-width: 1024px) {
+			
+								top: 60%;
+							
+							}
+
 							.news-date {
 
 								color: #000;
