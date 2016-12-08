@@ -46,22 +46,55 @@
 
 						position: relative;
 
+						& > [class*='col-'] {
+
+							padding: 0;
+							
+						}
+
+						.stock-image {
+
+							display: inline-block;
+							left: 28%;
+							position: absolute;
+							top: 17.6%;
+
+							@media (min-width: 1441px) {
+
+								display: inline-block;
+								left: 28%;
+								position: absolute;
+								top: 17.6%;
+						
+							}	
+
+
+						}
+
 						.stock-info {
 
-							color: #000;
-							font-family: 'proxima_nova_cn_rgregular', Arial, sans-serif;
-							font-size: 17px;
-							font-stretch: normal;
-							font-style: normal;
-							font-weight: 400;
 							left: 1.1%;
+							padding-left: 15px;
+							padding-right: 75px;
 							position: absolute;
-							top: 69%;
+							top: 60%;
 
 							@media (min-width: 992px) and (max-width: 1024px) {
 			
 								top: 60%;
 							
+							}
+
+							.news-info {
+
+								color: #000;
+								font-family: 'proxima_nova_cn_rgregular', Arial, sans-serif;
+								font-size: 17px;
+								font-stretch: normal;
+								font-style: normal;
+								font-weight: 400;
+								padding-bottom: 15px;
+
 							}
 
 							.news-date {
@@ -104,8 +137,8 @@
 								font-stretch: normal;
 								font-style: normal;
 								font-weight: 700;
-								text-decoration: none;
 								margin-bottom: 20px;
+								text-decoration: none;
 
 							}
 
@@ -114,20 +147,19 @@
 
 						.div-news {
 
-							padding-top: 30px;
+							@include align-items(flex-start);
+							@include flex-direction(column);
+							@include flexbox;
+							@include justify-content(space-between);
 							color: #33387c;
 							font-family: 'proxima_nova_cn_rgregular', Arial, sans-serif;
 							font-size: 15px;
 							font-stretch: normal;
 							font-style: normal;
 							font-weight: 400;
-							@include align-items(flex-start);
-							@include flex-direction(column);
-							@include flexbox;
-							@include justify-content(space-between);
-							flex: 1;
-
-
+							margin-left: 28%;
+							padding-top: 30px;
+							
 							p {
 								
 								text-decoration: underline;
@@ -138,10 +170,61 @@
 
 								color: #000;
 								font-family: 'proxima_nova_rgbold', Arial, sans-serif;
-								font-size: 23px;
+								font-size: 15px;
 								font-stretch: normal;
 								font-style: normal;
 								font-weight: 700;
+								padding-top: 30px;
+								text-decoration: none;
+								padding-bottom: 40px;
+
+							}
+
+							.news-date {
+
+								color: #000;
+								font-family: 'proxima_nova_cn_rgregular', Arial, sans-serif;
+								font-size: 17px;
+								font-stretch: normal;
+								font-style: normal;
+								font-weight: 400;
+								text-decoration: none;
+
+							}
+
+						}
+
+						.div-news-second {
+
+							@include align-items(flex-start);
+							@include flex-direction(column);
+							@include flexbox;
+							@include justify-content(space-between);
+							color: #33387c;
+							font-family: 'proxima_nova_cn_rgregular', Arial, sans-serif;
+							font-size: 15px;
+							font-stretch: normal;
+							font-style: normal;
+							font-weight: 400;
+							margin-left: 5%;
+							padding-top: 30px;
+							
+							p {
+								
+								text-decoration: underline;
+								
+							}
+
+							.news-title {
+
+								color: #000;
+								font-family: 'proxima_nova_rgbold', Arial, sans-serif;
+								font-size: 15px;
+								font-stretch: normal;
+								font-style: normal;
+								font-weight: 700;
+								padding-bottom: 19px;
+								padding-top: 30px;
 								text-decoration: none;
 
 							}

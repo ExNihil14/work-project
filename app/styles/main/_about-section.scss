@@ -3,6 +3,14 @@
     background: url('../images/background-5.png') no-repeat;
 	background-size: 100%;
 
+	@media (min-width: 992px) and (max-width: 1024px) {
+			
+		background-size: cover;
+							
+	}
+
+
+
 	.container {
 
 		height: 100%;

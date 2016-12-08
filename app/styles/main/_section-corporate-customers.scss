@@ -2,7 +2,8 @@
 
 	background: url(../images/background-3.png) no-repeat;
 	background-position: top left;
-	background-size: 89.8%;
+	background-size: 89.8% 100%;
+	height: 910px;
 
 	@media (min-width: 992px) and (max-width: 1024px) {
 
@@ -22,7 +23,7 @@
 
 	@media (min-width: 1441px) {
 
-		background-size: 77.6%;
+		background-size: 77.9%;
 		height: 932px;
 			
 	}
@@ -42,9 +43,9 @@
 			@media (min-width: 992px) and (max-width: 1024px) {
 
 				position: absolute;
-    			right: 0.6%;
-    			top: 31.5%;
-    			width: 48%;
+				right: 0.6%;
+				top: 31.5%;
+				width: 48%;
 									
 			}
 
@@ -52,16 +53,16 @@
 
 				position: absolute;
 				right: 7.1%;
-    			top: 31.5%;
-    			width: 46%;
+				top: 31.5%;
+				width: 46%;
 						
 			}
 
 			@media (min-width: 1441px){
 
 				position: absolute;
-				right: 13.3%;
-    			top: 31.5%;
+				right: 12.79%;
+				top: 31.5%;
 				width: auto;
 			
 			}
@@ -97,7 +98,7 @@
 
 			@media (min-width: 1441px){
 
-				margin-left: 4%;
+				margin-left: 4.45%;
 				width: 19%;
 			
 			}
@@ -253,7 +254,7 @@
 				}
 
 			}
-
+		
 		}
 
 	}
