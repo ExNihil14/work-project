@@ -20,13 +20,13 @@
 
 			.div-logo {
 
-				margin-bottom: 25px;
+				margin-bottom: 20px;
 				
 			}
 
 			.div-contact {
 
-				margin-top: 15px;
+				margin-top: 16px;
 
 				.header-contact {
 
@@ -38,13 +38,15 @@
 					.header-contact-item {
 
 						text-align: right;
+						margin-left: 24px;
+    					line-height: 31px;
 
 						a {
 
 							border-radius: 0;
 							color: #33387c;
 							font-family: 'proxima_nova_rgbold', Arial, sans-serif;
-							font-size: 19px;
+							font-size: 26px;
 							font-stretch: normal;
 							font-style: normal;
 							font-weight: 700;
@@ -52,7 +54,7 @@
 
 							span {
 
-								font-size: 25px;
+								font-size: 34px;
 
 							}
 
@@ -69,10 +71,10 @@
 							border-radius: 0;
 							color: #33387c;
 							font-family: 'proxima_nova_cn_rgregular', Arial, sans-serif;
-							font-size: 15px;
+							font-size: 19px;
 							font-stretch: normal;
 							font-style: normal;
-							font-weight: 400;
+							font-weight: 700;
 							padding: 0;
 							text-decoration: underline;
 
@@ -97,6 +99,7 @@
 				@include flexbox;
 				@include justify-content(flex-end);
 				margin-top: 20px;
+				margin-left: 89px;
 
 				.btn {
 
