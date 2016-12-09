@@ -30,23 +30,23 @@
 
 				.header-contact {
 
-					@include align-items(baseline);
+					@include align-items(flex-start);
 					@include flex-direction(row);
 					@include flexbox;
-					@include justify-content(space-between);
+					@include justify-content(flex-start);
 
 					.header-contact-item {
 
 						text-align: right;
-						margin-left: 24px;
-    					line-height: 31px;
+						line-height: 31px;
+						margin-left: 30px;
 
 						a {
 
 							border-radius: 0;
 							color: #33387c;
 							font-family: 'proxima_nova_rgbold', Arial, sans-serif;
-							font-size: 26px;
+							font-size: 24px;
 							font-stretch: normal;
 							font-style: normal;
 							font-weight: 700;
@@ -54,7 +54,7 @@
 
 							span {
 
-								font-size: 34px;
+								font-size: 32px;
 
 							}
 
@@ -99,8 +99,7 @@
 				@include flexbox;
 				@include justify-content(flex-end);
 				margin-top: 20px;
-				margin-left: 89px;
-
+				
 				.btn {
 
 					background-color: inherit;
